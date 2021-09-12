@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.047">
+<testcase classname="Automation Practise 1" name="Automation practice create account" time="0.203">
+<system-out><![CDATA[Given user web sayfasinda...................................................skipped
+And user sign in linkine tiklar.............................................skipped
+And user Create an account bolumune email adresi girer......................skipped
+And Create an Account butonuna basar........................................skipped
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................skipped
+And user Register butonuna basar............................................skipped
+Then hesap olusturuldugunu dogrulayin.......................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
