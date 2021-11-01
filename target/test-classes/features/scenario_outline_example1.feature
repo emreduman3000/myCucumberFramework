@@ -1,4 +1,4 @@
-@outline1 @thirdRunner
+@parallel @secondRunner
 Feature: scenario outline example
   Scenario: testing the data tables web page
     Given User is on the datatables homepage

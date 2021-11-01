@@ -5,7 +5,8 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
-public class Hooks {
+public class Hooks
+{
 
 
     //@Before TestNg'deki @BeforeMethod gibi calisir.
@@ -22,7 +23,9 @@ public class Hooks {
         System.out.println("Hooks Class- Iphone method");
     }
     //her scenario'dan sonra calisir
-    @After
+
+
+    //@After
     public void tearDown(Scenario scenario){
         System.out.println("Hooks Class - tearDown Method");
 

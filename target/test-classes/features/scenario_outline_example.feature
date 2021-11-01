@@ -1,4 +1,4 @@
-@outline0
+@parallel @firstRunner
 Feature: scenario outline example
 
   Scenario: testing the data tables web page

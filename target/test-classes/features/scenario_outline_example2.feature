@@ -1,4 +1,4 @@
-@datatable2
+@datatable @parallel @thirdRunner
 Feature: scenario outline example
   Scenario Outline: testing the data tables web page
 #if runner class doesnt exist in the framework,

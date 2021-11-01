@@ -8,7 +8,7 @@ public class ContactUsPage {
 
     private WebDriver driver;
 
-    private By subjectHeading = By.id("id_contact");
+    private final By subjectHeading = By.id("id_contact");
     private By email = By.id("email");
     private By orderRef = By.id("id_order");
     private By messageText = By.id("message");

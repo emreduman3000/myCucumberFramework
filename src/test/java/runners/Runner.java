@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
         //    plugin = "html:target/cucumber",   //(html seklinde) raporları almamızı saglar targetin altında cucumber raporu olusturur
         features = "src/test/resources/features",  //feature file ile
         glue = "stepdefinitions",       //packagename classname olabilir        //stepdefinitions ı birbiine sttach ediyorum
-        tags = "@testcase1", //sadece nokiayı calıstırmak isersem tags bölümünde sadece nokiayı yazarım
-        dryRun = true,               //false default'tur, bazı senoryaolar sadece tanımlıdır ama steplerde olusturulmamıstır,bos yere browserı acmasın workareada arasın diye dryRun=true dedik*/
+        tags = "@AdaMarket", //sadece nokiayı calıstırmak isersem tags bölümünde sadece nokiayı yazarım
+        dryRun = false,               //false default'tur, bazı senoryaolar sadece tanımlıdır ama steplerde olusturulmamıstır,bos yere browserı acmasın workareada arasın diye dryRun=true dedik*/
                                                   //stepleri yazılmıs senario ise ignored edilir// missin stepleri verir of defined tag
 
         //if strict option is set to false then at execution time if cucumber encounters any undefined/pending steps
